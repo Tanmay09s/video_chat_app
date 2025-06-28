@@ -1,17 +1,12 @@
 import { useState } from "react";
-import useAuthUser from "../hooks/useAuthUser"
+import useAuthUser from "../hooks/useAuthUser";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import toast from "react-hot-toast";
 import { completeOnboarding } from "../lib/api";
-import { CameraIcon } from "lucide-react";
-import { ShuffleIcon } from "lucide-react";
-import { LANGUAGES } from "../constants/index.js";
-import { MapPinIcon } from "lucide-react";
-import { ShipWheelIcon } from "lucide-react";
-import { LoaderIcon } from "lucide-react";
+import { LoaderIcon, MapPinIcon, ShipWheelIcon, ShuffleIcon } from "lucide-react";
+import { LANGUAGES } from "../constants";
 
-
-const OnBoardingPage = () => {
+const OnboardingPage = () => {
   const { authUser } = useAuthUser();
   const queryClient = useQueryClient();
 
@@ -34,9 +29,9 @@ const OnBoardingPage = () => {
     onError: (error) => {
       toast.error(error.response.data.message);
     },
-  })
+  });
 
- const handleSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     onboardingMutation(formState);
@@ -44,14 +39,14 @@ const OnBoardingPage = () => {
 
   const handleRandomAvatar = () => {
     const idx = Math.floor(Math.random() * 100) + 1; // 1-100 included
-    const randomAvatar = `https://api.dicebear.com/7.x/notionists/png?seed=${idx}`;
+    const randomAvatar = `https://avatar.iran.liara.run/public/${idx}.png`;
 
     setFormState({ ...formState, profilePic: randomAvatar });
     toast.success("Random profile picture generated!");
   };
 
   return (
-  <div className="min-h-screen bg-base-100 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-base-100 flex items-center justify-center p-4">
       <div className="card bg-base-200 w-full max-w-3xl shadow-xl">
         <div className="card-body p-6 sm:p-8">
           <h1 className="text-2xl sm:text-3xl font-bold text-center mb-6">Complete Your Profile</h1>
@@ -73,7 +68,8 @@ const OnBoardingPage = () => {
                   </div>
                 )}
               </div>
-                 {/* Generate Random Avatar BTN */}
+
+              {/* Generate Random Avatar BTN */}
               <div className="flex items-center gap-2">
                 <button type="button" onClick={handleRandomAvatar} className="btn btn-accent">
                   <ShuffleIcon className="size-4 mr-2" />
@@ -82,7 +78,7 @@ const OnBoardingPage = () => {
               </div>
             </div>
 
-              {/* FULL NAME */}
+            {/* FULL NAME */}
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Full Name</span>
@@ -97,7 +93,7 @@ const OnBoardingPage = () => {
               />
             </div>
 
-             {/* BIO */}
+            {/* BIO */}
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Bio</span>
@@ -191,7 +187,6 @@ const OnBoardingPage = () => {
         </div>
       </div>
     </div>
-  )
-}
-
-export default OnBoardingPage
+  );
+};
+export default OnboardingPage;
