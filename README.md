@@ -54,32 +54,6 @@ Rather than reinventing real-time infrastructure from scratch, Streamify integra
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-
-| Login / Onboarding | Dashboard |
-|:---:|:---:|
-| ![Login](https://via.placeholder.com/500x300.png?text=Login+Screen) | ![Dashboard](https://via.placeholder.com/500x300.png?text=Dashboard) |
-
-| Chat Interface | Video Call |
-|:---:|:---:|
-| ![Chat](https://via.placeholder.com/500x300.png?text=Chat+Interface) | ![Video Call](https://via.placeholder.com/500x300.png?text=Video+Call) |
-
-</div>
-
-<details>
-<summary>📷 More Screenshots</summary>
-<br/>
-
-| Friend Requests | Theme Selector |
-|:---:|:---:|
-| ![Friends](https://via.placeholder.com/500x300.png?text=Friend+Requests) | ![Theme](https://via.placeholder.com/500x300.png?text=Theme+Selector) |
-
-</details>
-
----
-
 ## ✨ Features
 
 ### 🔐 Authentication
