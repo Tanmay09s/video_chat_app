@@ -1,0 +1,72 @@
+streamify
+├── backend
+│   ├── package-lock.json
+│   ├── package.json
+│   └── src
+│       ├── controllers
+│       │   ├── auth.controller.js
+│       │   ├── chat.controller.js
+│       │   └── user.controller.js
+│       ├── lib
+│       │   ├── db.js
+│       │   └── stream.js
+│       ├── middleware
+│       │   └── auth.middleware.js
+│       ├── models
+│       │   ├── User.js
+│       │   └── friendRequest.js
+│       ├── routes
+│       │   ├── auth.route.js
+│       │   ├── chat.route.js
+│       │   └── user.route.js
+│       └── server.js
+├── frontend
+│   ├── README.md
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── public
+│   │   ├── i.png
+│   │   └── vite.svg
+│   ├── src
+│   │   ├── App.jsx
+│   │   ├── components
+│   │   │   ├── CallButton.jsx
+│   │   │   ├── ChatLoader.jsx
+│   │   │   ├── FriendCard.jsx
+│   │   │   ├── Layout.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── NoFriendsFound.jsx
+│   │   │   ├── NoNotificationsFound .jsx
+│   │   │   ├── PageLoader.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   └── ThemeSelector.jsx
+│   │   ├── config
+│   │   │   ├── api.js
+│   │   │   ├── axios.js
+│   │   │   └── utils.js
+│   │   ├── constants
+│   │   │   └── index.js
+│   │   ├── hooks
+│   │   │   ├── useAuthUser.js
+│   │   │   ├── useLogin.js
+│   │   │   ├── useLogout.js
+│   │   │   └── useSignup.js
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   ├── pages
+│   │   │   ├── CallPage.jsx
+│   │   │   ├── ChatPage.jsx
+│   │   │   ├── HomePage.jsx
+│   │   │   ├── LoginPage.jsx
+│   │   │   ├── NotificationsPage.jsx
+│   │   │   ├── OnboardingPage.jsx
+│   │   │   └── SignUpPage.jsx
+│   │   └── store
+│   │       └── useThemeStore.js
+│   ├── tailwind.config.js
+│   └── vite.config.js
+├── package.json
+└── project-structure.txt
