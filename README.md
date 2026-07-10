@@ -18,7 +18,7 @@ Connect. Chat. Call. In real time — powered by Stream's industry-grade Chat & 
 [![Made with MERN](https://img.shields.io/badge/Made%20with-MERN-61DAFB?style=flat-square)](#-tech-stack)
 [![Maintained](https://img.shields.io/badge/Maintained-yes-success.svg?style=flat-square)](#)
 
-[🚀 Live Demo](#-live-demo) • [✨ Features](#-features) • [🛠 Installation](#-installation-guide) • [📸 Screenshots](#-screenshots) • [🤝 Contributing](#-contributing)
+[🚀 Live Demo](https://videocallapp-3.onrender.com) • [✨ Features](#-features) • [🛠 Installation](#-installation-guide)  • [🤝 Contributing](#-contributing)
 
 </div>
 
@@ -46,9 +46,9 @@ Rather than reinventing real-time infrastructure from scratch, Streamify integra
 
 <div align="center">
 
-🔗 **Live URL:** [https://streamify-demo.example.com](#) *(placeholder — replace with your deployed link)*
+🔗 **Live URL:** [https://streamify-demo.example.com](https://videocallapp-3.onrender.com)*(placeholder — replace with your deployed link)*
 
-🎬 **Demo Video:** [Watch on YouTube](#) *(placeholder)*
+🎬 **Demo Video:** [Watch on YouTube](https://youtu.be/ZuwigEmwsTM?si=Wr3q7sB4k43JNWU8) *(placeholder)*
 
 </div>
 
@@ -214,7 +214,7 @@ Make sure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/streamify.git
+git clone https://github.com/Tanmay09s/streamify.git
 cd streamify
 ```
 
@@ -471,10 +471,10 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 **Your Name**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-lovat-five-uk1h53a8ti.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanmay-shahapure-b982322ba?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tanmay09s)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tanmayshahapure@gmail.com)
 
 </div>
 
@@ -484,7 +484,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ### ⭐️ If you found this project interesting, consider giving it a star!
 
-Made with ❤️ and lots of ☕ by **[Your Name](#)**
+Made with ❤️ and lots of ☕ by **[Tanmay Shahapure](#)**
 
 <sub>Built with the MERN Stack • Powered by Stream</sub>
 
