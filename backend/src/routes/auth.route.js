@@ -1,6 +1,8 @@
 import express from "express";
 import { login, logout, signup,onboard } from "../controllers/auth.controller.js";
 import { protectRoute } from "../middleware/auth.middleware.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 const router = express.Router();
 

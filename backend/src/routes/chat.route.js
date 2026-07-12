@@ -2,6 +2,8 @@
 import express from "express";
 import { protectRoute } from "../middleware/auth.middleware.js";
 import { getStreamToken } from "../controllers/chat.controller.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 const router = express.Router();
 

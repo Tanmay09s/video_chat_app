@@ -8,6 +8,8 @@ import {
   getRecommendedUsers,
   sendFriendRequest,
 } from "../controllers/user.controller.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 const router = express.Router();
 
