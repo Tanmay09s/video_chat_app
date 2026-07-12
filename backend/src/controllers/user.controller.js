@@ -1,5 +1,7 @@
 import User from "../models/User.js";
 import FriendRequest from "../models/FriendRequest.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 export async function getRecommendedUsers(req, res) {
   try {

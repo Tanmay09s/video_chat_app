@@ -1,4 +1,6 @@
 import { generateStreamToken } from "../lib/stream.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 export async function getStreamToken(req, res) {
   try {

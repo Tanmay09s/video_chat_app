@@ -1,6 +1,5 @@
 import { StreamChat } from "stream-chat";
 import dotenv from "dotenv";
-
 dotenv.config();
 
 const apiKey = process.env.STREAM_API_KEY; // fixed typo from STEAM_API_KEY
